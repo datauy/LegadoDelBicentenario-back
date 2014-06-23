@@ -1,0 +1,40 @@
+<xml>
+<norma>
+	<tipo>por ej: ley (texto)</tipo>
+	<numero>número de la ley (texto)</numero>
+	<nombre>nombre puesto a la ley en el Banco de Datos de IMPO (texto)</nombre>
+	<fecha_promulgacion>fecha de promulgación en el formato dd/mm/aaaa</fecha_promulgacion>
+	<fecha_publicacion>fecha de promulgación en el formato dd/mm/aaaa</fecha_publicacion>
+	<rnld>
+		<tomo>tomo en que fue publicada la ley en el registro nacional de leyes y decretos (número 1 dígito)</tomo>
+		<semestre>semestre en que fue publicada la ley en el registro nacional de leyes y decretos (número 1 dígito)</semestre>
+		<año>año en que fue publicada la ley en el registro nacional de leyes y decretos (número 4 dígitos)</año>
+		<pagina>página en que fue publicada la ley en el registro nacional de leyes y decretos (número)</pagina>
+	</rnld>
+	<nota>
+		nota de la norma (texto opcional)
+	</nota>
+	<referencias>
+		lista de las referencias de la norma ordenados por año decreciente (texto opcional)
+	</referencias>
+	<articulos>
+		<articulo>
+			<titulo> título (texto opcional) </titulo>
+			<numero>número del artículo (generalmente número pero puede tener letras o texto como BIS)</numero>
+			<texto>
+				el texto del artículo (texto)
+			</texto>
+			<nota>
+				nota del artículo (texto opcional)
+			</nota>
+			<referencias>
+				lista de las referencias del artículo ordenados por año decreciente (texto opcional)
+			</referencias>
+		</articulo>
+	</articulos>
+	<firmantes>
+		firmantes de la norma
+	</firmantes>
+</norma>
+</xml>	
+		
